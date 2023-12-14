@@ -1,0 +1,401 @@
+body {
+    margin: 0 auto;
+}
+
+.myContainer {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+
+}
+
+.loginBoxShadow {
+    box-shadow: 0 0 15px 2px gray;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.containerChild:nth-child(1) {
+    background-image: url("../images/Blue\ Gray\ Background\ Free\ Stock\ Photo\ HD\ Public\ Domain\ Pictures.jpg");
+    background-position: center;
+    color: white;
+    z-index: 2;
+}
+
+.containerChild:nth-child(2) {
+    background-color: white;
+    justify-content: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+.containerChild {
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+    flex-wrap: wrap;
+    width: 51%;
+    min-height: 98vh;
+    border-radius: 20px;
+    font-size: 1.1rem;
+
+}
+
+.logoChild img {
+    width: 30%;
+}
+
+.logoChild {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.child2 span {
+    width: 48%;
+
+}
+
+.attention {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.formControl input {
+    width: 80%;
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin: auto;
+    border: 3px solid #d9d9d9;
+    transition: .2s all;
+}
+
+.formControl input:hover {
+    border: 3px solid #ffa35d;
+
+}
+
+.formControl input:focus {
+    border: 3px solid #69a5fe;
+    outline: 4px solid #d9d9d9;
+
+}
+
+
+.registerAlert {
+    display: block;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.registerIntro {
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.formControl {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formControl form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+
+}
+
+.formControl button {
+    width: 50%;
+    padding: 10px 0px;
+    margin: 1rem 0;
+    background-color: #7192bf;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s all;
+}
+
+.formControl button:hover {
+    border: 1px solid white;
+    outline: 2px solid #7192bf;
+}
+.formControl button:focus {
+ transform: scale(.95);
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+}
+
+.myForm {
+    width: 100%;
+}
+
+.containerGuide span:nth-child(1) {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #ffa35d;
+    margin-left: .5rem;
+    flex-shrink: 0;
+}
+
+.containerGuide {
+    list-style: none;
+
+}
+
+.containerGuide li {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.logoXsBlock {
+    display: none;
+}
+
+.guideBtnXs {
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    z-index: 3;
+    padding: 1.5rem;
+    border-radius: 100%;
+}
+
+.guideBtnXs>div>button {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 3;
+    padding: 16px 9px;
+    border-radius: 100%;
+    border: none;
+    background-color: #557c9b;
+    color: white;
+}
+
+#guideContent {
+    width: 100vw;
+    height: 100svh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3));
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.guideXs {
+    background-color: white;
+    direction: rtl;
+    position: relative;
+    border-radius: 4px;
+    padding: 2vw;
+}
+
+
+.closeGuide {
+    position: absolute;
+    right: 0.5rem;
+    top: 0;
+    color: black !important;
+    background-color: white !important;
+    transform: rotate(45deg);
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 100%;
+    border: none;
+}
+
+.closeGuide:hover {
+    border: 2px solid purple;
+}
+
+.inputBox {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    position: relative;
+}
+
+.warningAlet span {
+    width: 100%;
+    display: block;
+    color: red;
+    font-size: 0.75rem;
+}
+
+.warningAlet, .passwordStrong {
+    width: 90%;
+}
+
+.formControl label {
+    width: 90%;
+}
+.passwordStrong{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 80%;
+    z-index: 10;
+    background-color: rgba(168, 58, 58, 0.3);
+
+}
+
+@media (max-width:767px) {
+    .child1 {
+        display: none;
+    }
+
+    .child2 {
+        width: 100%;
+        margin-left: 0px !important;
+        border-radius: 20px !important;
+    }
+
+    .logoXsBlock {
+        display: flex;
+    }
+
+    .myContainer {
+        background-color: #557c9b;
+    }
+
+    .loginBoxShadow {
+        width: 100%;
+    }
+
+    .guideBtnXs {
+        display: block;
+    }
+
+    .formControl form {
+        width: 100%;
+        padding: 0 .75rem;
+
+    }
+
+    .formControl input {
+        width: 90%;
+    }
+
+    .formControl label {
+        text-align: start;
+    }
+}
+
+.alertBoxContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.alertBox {
+    width: 50%;
+    background-color: rgb(223, 46, 46);
+    height: auto;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    position: relative;
+    color: rgb(219, 204, 204);
+}
+
+.alertBox button {
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+    transform: rotate(45deg);
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .child1 {
+        display: none;
+    }
+
+    .child2 {
+        width: 100%;
+        margin-left: 0px !important;
+        border-radius: 20px !important;
+    }
+
+    .logoXsBlock {
+        display: flex;
+    }
+
+    .myContainer {
+        background-color: #557c9b;
+    }
+
+    .loginBoxShadow {
+        width: 100%;
+    }
+
+    .guideBtnXs {
+        display: block;
+    }
+
+    .formControl form {
+        width: 100%;
+        padding: 0 .75rem;
+
+    }
+
+    .formControl input {
+        width: 90%;
+    }
+
+    .formControl label {
+        text-align: start;
+    }
+}
+
+.show {
+    display: flex !important;
+}
